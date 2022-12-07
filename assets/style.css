@@ -111,7 +111,45 @@ input:checked+.slider::before {
     color: hsl(232, 13%, 33%);
 }
 
+.price-monthly {
+    display: none;
+}
+
 .price {
     font-size: 65px;
     padding-left: 7px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 35px;
+}
+
+ul li {
+    color: hsl(233, 13%, 49%);
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+    padding: 18px 0;
+}
+
+ul li:first-child {
+    border-top: 1px solid hsl(234, 14%, 74%);
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(180deg, hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+    width: 100%;
+    display: block;
+    padding: 16px 0;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+
+a:hover {
+    color:hsl(237, 63%, 64%) ;
+    background: transparent;
+    border-color: hsl(237, 63%, 64%);
 }

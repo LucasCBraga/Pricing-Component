@@ -72,3 +72,46 @@ body {
 input:checked+.slider::before {
     transform: translateX(26px);
 }
+
+.pricing {
+    color: hsl(234, 14%, 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.pricing label {
+    margin: 0 20px ;
+}
+
+.pricing-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pricing-box {
+    background: #FFF;
+    padding: 50px 40px;
+    border-radius: 12px;
+}
+
+.box-title {
+    color: hsl(233, 13%, 49%);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.price-annually,
+.price-monthly {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(232, 13%, 33%);
+}
+
+.price {
+    font-size: 65px;
+    padding-left: 7px;
+}

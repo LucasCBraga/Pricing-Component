@@ -94,6 +94,7 @@ input:checked+.slider::before {
     background: #FFF;
     padding: 50px 40px;
     border-radius: 12px;
+    align-self: center;
 }
 
 .box-title {
@@ -152,4 +153,68 @@ a:hover {
     color:hsl(237, 63%, 64%) ;
     background: transparent;
     border-color: hsl(237, 63%, 64%);
+}
+
+.pricing-box.feature {
+    background: linear-gradient(180deg, hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+    padding: 80px 40px;
+    transform: scaleX(1.05);
+}
+
+.pricing-box.feature p {
+    color: #FFF;
+}
+
+.pricing-box.feature ul li {
+    color: #FFF;
+}
+
+.pricing-box.feature a {
+    background: #FFF;
+    color:hsl(237, 63%, 64%);
+}
+
+.pricing-box.feature a:hover {
+    color: #FFF;
+    border-color: #FFF;
+    background: transparent;
+}
+
+@media only screen and (max-width:1024px) {
+    body {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 50px;
+    }
+
+    .pricing-box {
+        padding: 40px 30px;
+    }
+
+    .pricing-box.feature {
+        padding: 70px 30px;
+    }
+}
+
+@media only screen and (max-width:820px) {
+   
+    .pricing-main {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+    .price {
+        font-size: 50px;
+    }
+
+    .pricing-box {
+        padding: 50px ;
+    }
+
+    .pricing-box.feature {
+        transform: scaleX(1);
+        padding: 50px;
+    }
 }

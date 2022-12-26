@@ -28,6 +28,8 @@ Página com uma lista de planos de internet com um botão que altera o plano men
 
 Neste projeto, aprendi mais sobre o JavaScript, e tive como desafio também fazer todo o layout das caixas dos produtos, com isso pude também aumentar minhas skills em CSS.
 
+<hr>
+
 ## Referência
 
  - [Front-End-Mentor](https://www.frontendmentor.io/challenges?sort=difficulty|asc)
